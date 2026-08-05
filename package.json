@@ -1,0 +1,31 @@
+{
+  "name": "animation-companion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-frontend": "npm run dev --workspace=frontend",
+    "dev-backend": "npm run dev --workspace=backend",
+    "dev": "concurrently \"npm run dev-frontend\" \"npm run dev-backend\"", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Q-Chan97/animation-companion.git"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Q-Chan97/animation-companion/issues"
+  },
+  "homepage": "https://github.com/Q-Chan97/animation-companion#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.4"
+  }
+}
