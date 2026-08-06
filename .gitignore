@@ -1,3 +1,9 @@
+# Prisma 
+/backend/src/generated/prisma
+/backend/.agents
+/backend/.claude
+/backend/.windsurf
+
 # Logs
 logs
 *.log
